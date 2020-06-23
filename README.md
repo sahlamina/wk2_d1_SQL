@@ -88,7 +88,8 @@ One or more rows in a table to be related to 0, 1 or many rows in another table
 Third table called mapping or link is required in order to implement such relationship.
 For an example: courses may have multiple students and a student may be enrolled in multiple courses
 A _JUNCTION TABLE_ will need to be created in order to create 1-1 relationship between Table A and Table B
-_COMPOSITE PRIMARY KEY_ = 2 records from different tables added together to create a unique primary key. Should consider the least number of columns to create a composite primary key
+_COMPOSITE PRIMARY KEY_ = 2 columns from different tables added together to create a unique primary key. Should consider the least number of columns to create a composite primary key
+When one or more columns combine together and can identify every thing on the table to create a separate key value
 Candidate Keys = When you can choose multiple options for primary key. The designer will choose one.
 Primary Key
 
